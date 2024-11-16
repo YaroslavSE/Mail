@@ -10,6 +10,10 @@ public class Mail {
     private String deliveredDate;  // Дата доставки (если доставлено)
     private String status;         // Статус (Sent, Delivered, Returned)
 
+    public Mail(){
+
+    }
+
     public Mail(int itemId, User sender, User receiver, String content, double weight, String sentDate) {
         this.itemId = itemId;
         this.sender = sender;
