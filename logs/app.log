@@ -1,0 +1,42 @@
+05:41:34.936 [Test worker] DEBUG org.example.ShippingService - Initialized ShippingService with default insurance rates
+05:41:34.986 [Test worker] INFO  org.example.ShippingService - Calculating total cost for insurance type: premium
+05:41:34.990 [Test worker] DEBUG org.example.ShippingService - Shipping cost: 75.0, Insurance cost: 10.0, Total cost: 85.0
+05:41:35.021 [Test worker] DEBUG org.example.ShippingService - Initialized ShippingService with default insurance rates
+05:41:35.022 [Test worker] INFO  org.example.ShippingService - Added new insurance rate: type=gold, rate=15.0
+05:41:35.023 [Test worker] INFO  org.example.ShippingService - Calculating total cost for insurance type: gold
+05:41:35.024 [Test worker] DEBUG org.example.ShippingService - Shipping cost: 40.0, Insurance cost: 15.0, Total cost: 55.0
+05:41:35.029 [Test worker] DEBUG org.example.ShippingService - Initialized ShippingService with default insurance rates
+05:41:35.030 [Test worker] INFO  org.example.ShippingService - Calculating total cost for insurance type: basic
+05:41:35.031 [Test worker] DEBUG org.example.ShippingService - Shipping cost: 50.0, Insurance cost: 5.0, Total cost: 55.0
+05:41:35.037 [Test worker] DEBUG org.example.ShippingService - Initialized ShippingService with default insurance rates
+05:41:35.039 [Test worker] INFO  org.example.ShippingService - Calculating total cost for insurance type: none
+05:41:35.040 [Test worker] DEBUG org.example.ShippingService - Shipping cost: 30.0, Insurance cost: 0.0, Total cost: 30.0
+[DEBUG] 2024-11-05 05:43:40.159 [Test worker] ShippingService:Initialized ShippingService with default insurance rates
+[INFO ] 2024-11-05 05:43:40.209 [Test worker] ShippingService:Calculating total cost for insurance type: premium
+[DEBUG] 2024-11-05 05:43:40.213 [Test worker] ShippingService:Shipping cost: 75.0, Insurance cost: 10.0, Total cost: 85.0
+[DEBUG] 2024-11-05 05:43:40.239 [Test worker] ShippingService:Initialized ShippingService with default insurance rates
+[INFO ] 2024-11-05 05:43:40.241 [Test worker] ShippingService:Added new insurance rate: type=gold, rate=15.0
+[INFO ] 2024-11-05 05:43:40.241 [Test worker] ShippingService:Calculating total cost for insurance type: gold
+[DEBUG] 2024-11-05 05:43:40.242 [Test worker] ShippingService:Shipping cost: 40.0, Insurance cost: 15.0, Total cost: 55.0
+[DEBUG] 2024-11-05 05:43:40.247 [Test worker] ShippingService:Initialized ShippingService with default insurance rates
+[INFO ] 2024-11-05 05:43:40.248 [Test worker] ShippingService:Calculating total cost for insurance type: basic
+[DEBUG] 2024-11-05 05:43:40.249 [Test worker] ShippingService:Shipping cost: 50.0, Insurance cost: 5.0, Total cost: 55.0
+[DEBUG] 2024-11-05 05:43:40.252 [Test worker] ShippingService:Initialized ShippingService with default insurance rates
+[INFO ] 2024-11-05 05:43:40.254 [Test worker] ShippingService:Calculating total cost for insurance type: none
+[DEBUG] 2024-11-05 05:43:40.255 [Test worker] ShippingService:Shipping cost: 30.0, Insurance cost: 0.0, Total cost: 30.0
+[DEBUG] 2024-11-05 05:43:54.009 [Test worker] ShippingService:Initialized ShippingService with default insurance rates
+[INFO ] 2024-11-05 05:43:54.045 [Test worker] ShippingService:Calculating total cost for insurance type: premium
+[DEBUG] 2024-11-05 05:43:54.049 [Test worker] ShippingService:Shipping cost: 75.0, Insurance cost: 10.0, Total cost: 85.0
+[DEBUG] 2024-11-05 05:43:54.076 [Test worker] ShippingService:Initialized ShippingService with default insurance rates
+[INFO ] 2024-11-05 05:43:54.077 [Test worker] ShippingService:Added new insurance rate: type=gold, rate=15.0
+[INFO ] 2024-11-05 05:43:54.078 [Test worker] ShippingService:Calculating total cost for insurance type: gold
+[DEBUG] 2024-11-05 05:43:54.079 [Test worker] ShippingService:Shipping cost: 40.0, Insurance cost: 15.0, Total cost: 55.0
+[DEBUG] 2024-11-05 05:43:54.083 [Test worker] ShippingService:Initialized ShippingService with default insurance rates
+[INFO ] 2024-11-05 05:43:54.085 [Test worker] ShippingService:Calculating total cost for insurance type: basic
+[DEBUG] 2024-11-05 05:43:54.086 [Test worker] ShippingService:Shipping cost: 50.0, Insurance cost: 5.0, Total cost: 55.0
+[DEBUG] 2024-11-05 05:43:54.091 [Test worker] ShippingService:Initialized ShippingService with default insurance rates
+[INFO ] 2024-11-05 05:43:54.093 [Test worker] ShippingService:Calculating total cost for insurance type: none
+[DEBUG] 2024-11-05 05:43:54.094 [Test worker] ShippingService:Shipping cost: 30.0, Insurance cost: 0.0, Total cost: 30.0
+[DEBUG] 2024-11-06 11:45:17.655 [Test worker] ShippingService:Initialized ShippingService with default insurance rates
+[INFO ] 2024-11-06 11:45:17.708 [Test worker] ShippingService:Calculating total cost for insurance type: premium
+[DEBUG] 2024-11-06 11:45:17.712 [Test worker] ShippingService:Shipping cost: 75.0, Insurance cost: 10.0, Total cost: 85.0

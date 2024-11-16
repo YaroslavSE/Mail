@@ -1,0 +1,18 @@
+Configuration:
+  status: WARN
+  appenders:
+    Console:
+      name: ConsoleAppender
+      PatternLayout:
+        pattern: "[%-5p] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1}:%msg%n"
+    File:
+      name: FileAppender
+      fileName: logs/app.log
+      PatternLayout:
+        pattern: "[%-5p] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1}:%msg%n"
+  loggers:
+    Root:
+      level: debug
+      AppenderRef:
+        - ref: ConsoleAppender
+        - ref: FileAppender
