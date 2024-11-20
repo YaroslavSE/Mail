@@ -11,9 +11,7 @@ public class Mail {
     private String status;         // Статус (Sent, Delivered, Returned)
 
     public Mail(){
-
     }
-
     public Mail(int itemId, User sender, User receiver, String content, double weight, String sentDate) {
         this.itemId = itemId;
         this.sender = sender;
@@ -21,71 +19,54 @@ public class Mail {
         this.content = content;
         this.weight = weight;
         this.sentDate = sentDate;
-        this.status = "Sent";  // Изначально статус - отправлено
+        this.status = "Sent";
     }
-
-    // Геттеры и сеттеры
     public int getItemId() {
         return itemId;
     }
-
     public void setItemId(int itemId) {
         this.itemId = itemId;
     }
-
     public User getSender() {
         return sender;
     }
-
     public void setSender(User sender) {
         this.sender = sender;
     }
-
     public User getReceiver() {
         return receiver;
     }
-
     public void setReceiver(User receiver) {
         this.receiver = receiver;
     }
-
     public String getContent() {
         return content;
     }
-
     public void setContent(String content) {
         this.content = content;
     }
-
     public double getWeight() {
         return weight;
     }
-
     public void setWeight(double weight) {
         this.weight = weight;
     }
-
     public String getSentDate() {
         return sentDate;
     }
-
     public void setSentDate(String sentDate) {
         this.sentDate = sentDate;
     }
-
     public String getDeliveredDate() {
         return deliveredDate;
     }
-
     public void setDeliveredDate(String deliveredDate) {
         this.deliveredDate = deliveredDate;
-        this.status = "Delivered";  // После установки даты доставки меняем статус
+        this.status = "Delivered";
     }
-
     public String getStatus() {
         return status;
     }
-
     public void setStatus(String status) {
         this.status = status;
     }
